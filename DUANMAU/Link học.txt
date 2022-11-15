@@ -1,0 +1,27 @@
+//    DefaultTableModel dtm = (DefaultTableModel) tblBang.getModel();
+//        dtm.setRowCount(0);
+//        for (QLCTSP q : list) {
+//            Object data[]={
+//            n.getHo()+" " +n.getTendem()+" " +n.getTen(),
+//             q.getTinhtrang() == 1 ? "Đã giao" : "Đang giao"
+//            };
+//            dtm.addRow(data);
+//        }
+ 
+//CHECK GIA,SL    
+//  boolean ktnhap = false;
+//    ktnhap = nhap.matches("[1-9][0-9]{0,}");
+//    if(ktnhap == false){
+//    }   
+    
+ //CHECK  date , MK
+ // kt = ngaysinh.matches("(0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[01])[-][12][0-9]{3}");    (mm-dd-yyyy)
+ // kt = ngaysinh.matches("[12][0-9]{3}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[01])");   (yyyy-mm-dd) 
+ //  mk = matkhau.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{5,}$");   
+    
+//cbb 
+// private CuaHangServices chl = new CuaHangServices();  
+//        List<CuaHang> ch = chl.getList();
+//        for (CuaHang cuaHang : ch) {
+//            cbbCH.addItem(cuaHang.getTen());
+//        }  
